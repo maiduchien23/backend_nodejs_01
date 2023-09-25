@@ -46,11 +46,15 @@ const Customer = async () => {
     {
       timestamps: true,
       tableName: "customers",
+<<<<<<< Updated upstream
       paranoid: true,
       deletedAt: "deleted_at",
       updatedAt: "updated_at",
       createdAt: "created_at",
     },
+=======
+    }
+>>>>>>> Stashed changes
   );
 };
 
